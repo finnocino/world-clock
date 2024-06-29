@@ -1,9 +1,9 @@
 body {
-    background-color: rgb(245, 248, 248);
+    background-color: rgb(254, 254, 254);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h1 {
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
 }
 h2 {
@@ -36,7 +36,7 @@ footer {
     justify-content: space-between;
     margin: 20px 0;
     border-bottom: 1px dashed rgb(0, 0, 0, 0.2);
-    padding: 15px;
+    padding: 15px 0;
 }
 .city:last-child {
     border: none;
