@@ -24,6 +24,9 @@ kyivTimeElement.innerHTML = kyivTime.format("h:mm:ss [<small>]A[</small>]");
 
 function updateCity(event) {
     let cityTimeZone = event.target.value;
+    if (cityTimeZone === "current") {
+        cityTimeZone = moment.tz.guess();
+    }
     //console.log(cityTimeZone);
     let cityName = cityTimeZone.replace("_", " "). split("/")[1];
     let cityTime = moment().tz(cityTimeZone);
